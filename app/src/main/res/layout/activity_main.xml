@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ViewPagerComponent.MainActivity">
 
-    <com.example.georgesamuel.imageslidercomponent.PagerContainer
+    <com.example.georgesamuel.imageslidercomponent.ViewPagerComponent.PagerContainer
         android:id="@+id/pager_container"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -23,6 +23,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="48dp"/>
 
-    </com.example.georgesamuel.imageslidercomponent.PagerContainer>
+    </com.example.georgesamuel.imageslidercomponent.ViewPagerComponent.PagerContainer>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

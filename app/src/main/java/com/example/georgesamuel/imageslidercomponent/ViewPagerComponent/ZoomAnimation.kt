@@ -1,4 +1,4 @@
-package com.example.georgesamuel.imageslidercomponent
+package com.example.georgesamuel.imageslidercomponent.ViewPagerComponent
 
 import android.view.View
 import androidx.viewpager.widget.ViewPager

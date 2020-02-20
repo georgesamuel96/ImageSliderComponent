@@ -1,9 +1,10 @@
-package com.example.georgesamuel.imageslidercomponent
+package com.example.georgesamuel.imageslidercomponent.ViewPagerComponent
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.widget.Toast
+import com.example.georgesamuel.imageslidercomponent.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,8 +16,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val viewPagerAdapter = ViewPagerAdapter(this)
-        viewPager.setPageTransformer(true, ZoomAnimation())
+        val viewPagerAdapter =
+            ViewPagerAdapter(this)
+        viewPager.setPageTransformer(true,
+            ZoomAnimation()
+        )
         viewPager.adapter = viewPagerAdapter
         viewPager.offscreenPageLimit = viewPagerAdapter.count
         viewPager.clipChildren = false

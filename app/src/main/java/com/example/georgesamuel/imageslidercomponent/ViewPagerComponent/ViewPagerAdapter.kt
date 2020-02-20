@@ -1,4 +1,4 @@
-package com.example.georgesamuel.imageslidercomponent
+package com.example.georgesamuel.imageslidercomponent.ViewPagerComponent
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.PagerAdapter
 import com.bumptech.glide.Glide
+import com.example.georgesamuel.imageslidercomponent.R
 import kotlinx.android.synthetic.main.custom_layout.view.*
 
 class ViewPagerAdapter(context: Context): PagerAdapter() {
