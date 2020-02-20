@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
     private fun runnable(): Runnable {
         return Runnable {
             viewPager.currentItem = i
-            Toast.makeText(this@MainActivity, "$i", Toast.LENGTH_SHORT).show()
             when (i) {
                 2 -> i = 0
                 else -> i++
